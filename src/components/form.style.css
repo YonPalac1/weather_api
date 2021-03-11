@@ -1,7 +1,15 @@
 form {
   margin-top: 3rem;
 }
-
+.col-sm-4{
+	float:left;
+}
+form input{
+	margin-bottom:20px;
+}
+hr{
+	background-color:#fff;
+}
 form input[name="city"],
 form input[name="country"] {
   background-color: transparent;
