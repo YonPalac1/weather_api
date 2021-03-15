@@ -1,11 +1,11 @@
 form {
   margin-top: 3rem;
-}
-.col-sm-4{
-	float:left;
+  display:flex;
+  justify-content:center;
 }
 form input{
 	margin-bottom:20px;
+  	text-align:center;
 }
 hr{
 	background-color:#fff;
@@ -17,4 +17,8 @@ form input[name="country"] {
   border: none;
   border-bottom: 2px solid whitesmoke;
   border-radius: 0;
+}
+button{
+	position:relative;
+	width:100%;
 }

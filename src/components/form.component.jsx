@@ -6,7 +6,7 @@ const Form = props => {
     <div className="container h-100">
       <h1 className="text-white">Weather Api</h1>
       <hr/>
-      <form onSubmit={props.loadweather} className="col-sm-4">
+      <form onSubmit={props.loadweather}>
         <div>{props.error ? error() : ""}</div>
         <div className="row">
             <input
